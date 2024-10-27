@@ -6,11 +6,8 @@
 /*   By: odahriz <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 13:12:41 by odahriz           #+#    #+#             */
-<<<<<<< HEAD
 /*   Updated: 2024/10/26 18:32:28 by odahriz          ###   ########.fr       */
-=======
 /*   Updated: 2024/10/25 17:02:48 by odahriz          ###   ########.fr       */
->>>>>>> 7be8af34bacf6d522f999fecc5ed819ad29987a6
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +15,6 @@
 
 void	*ft_memmove(void *dst, const void *src, size_t n)
 {
-<<<<<<< HEAD
 	unsigned char     *d;
     const unsigned char *s;
 
@@ -41,8 +37,5 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
             *(--d) = *(--s);
     }
 
-    return (dest);
-=======
-	
->>>>>>> 7be8af34bacf6d522f999fecc5ed819ad29987a6
+    return (dest);	
 }
