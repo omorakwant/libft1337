@@ -6,8 +6,13 @@
 /*   By: odahriz <odahriz@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 12:34:33 by odahriz           #+#    #+#             */
-/*   Updated: 2024/11/02 12:39:13 by odahriz          ###   ########.fr       */
+/*   Updated: 2024/11/02 14:31:09 by odahriz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+int ft_memecmp(const void *s1, const void *s2, size_t n)
+{
+    
+}
