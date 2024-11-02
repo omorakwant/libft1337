@@ -6,8 +6,13 @@
 /*   By: odahriz <odahriz@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 09:45:49 by odahriz           #+#    #+#             */
-/*   Updated: 2024/11/01 09:46:03 by odahriz          ###   ########.fr       */
+/*   Updated: 2024/11/01 18:25:54 by odahriz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+void	*ft_memchr(const void *s, int c, size_t n)
+{
+
+}
