@@ -6,7 +6,7 @@
 /*   By: odahriz <odahriz@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 17:56:04 by odahriz           #+#    #+#             */
-/*   Updated: 2024/11/04 10:30:55 by odahriz          ###   ########.fr       */
+/*   Updated: 2024/11/04 11:54:14 by odahriz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 char    *ft_strnstr(const char *big, const char *little, size_t len)
 {
     size_t               i;
-    const unsigned char *l;
-    const unsigned char *b;
+    unsigned char *l;
+    unsigned char *b;
 
     l = (unsigned char)little;
     b = (unsigned char)big;
@@ -25,7 +25,7 @@ char    *ft_strnstr(const char *big, const char *little, size_t len)
         return (b);
     while (i < len)
     {
-        if (l[i] == b [i])
+        if (l[i] == b )
             return (b);
         i++;
     }
